@@ -1,2 +1,2 @@
-# parsonal-blog
+# personal-blog
 Personal Blog Project
