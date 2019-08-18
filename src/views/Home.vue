@@ -41,7 +41,7 @@ export default {
 <style lang="scss" scoped>
 .container-background {
   background-image: url("../assets/photo.jpg");
-  height: 100vh;//calc(100vh - 100px);
+  height: calc(100vh - 60px); //calc(100vh - 100px);
   min-height: 500px;
   background-repeat: no-repeat;
   @media screen and (min-width: 1024px) {
