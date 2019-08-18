@@ -1,11 +1,17 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About Ме</router-link>
-      <router-link to="/skills">Skills</router-link>
-      <router-link to="/projects">Projects</router-link>
-      <router-link to="/certificates">Certificates</router-link>
+      <!-- <v-toolbar color="black">
+        <v-toolbar-title class="title">DIYANA</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-toolbar-items class="hidden-xs-only navigation">
+          <router-link to="/">HOME</router-link>
+          <router-link to="/about">ABOUT МE</router-link>
+          <router-link to="/skills">SKILLS</router-link>
+          <router-link to="/projects">PROJECTS</router-link>
+          <router-link to="/certificates">CERTIFICATES</router-link>
+        </v-toolbar-items>
+      </v-toolbar> -->
     </div>
     <router-view />
   </div>
@@ -27,7 +33,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: #fff;
-    padding: 0 30px;
+    padding: 20px 30px 0 30px;
     text-decoration: none;
     text-align: right;
     &.router-link-exact-active {
@@ -35,30 +41,8 @@ body {
     }
   }
 }
-
-.vue-typer {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  .custom.char {
-    &.typed {
-      color: #fff;
-    }
-    &.selected {
-      color: #fff;
-      background-color: transparent;
-    }
-  }
-  .custom.caret {
-    &.typing {
-      width: 10px;
-      background-color: #00ff00;
-    }
-    &.selecting {
-      display: inline-block;
-      background-color: #00ff00;
-    }
-    &.erasing {
-      background-color: #00ff00;
-    }
-  }
+.title {
+  color: #00ff00;
+  font-weight: bold;
 }
 </style>

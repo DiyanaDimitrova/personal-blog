@@ -4,7 +4,9 @@
       class="container-background"
       title="Hi! I'm Diyana."
       description="Experienced Full-Stack Engineer located in Sofia."
-      dynamicText="Spacialized in"
+      dynamicText="Spacialized in "
+      contactInfo="get-in-touch-with-me "
+      contactName="diyana.dimitrova$"
       :skills="skills"
     />
     <!-- <div>test</div> -->
@@ -22,7 +24,15 @@ export default {
   },
   data() {
     return {
-      skills: ["React", "Redux", "Node", "Express", "GraphQL", "Java", "Rails"]
+      skills: [
+        "React.",
+        "Redux.",
+        "Node.",
+        "Express.",
+        "GraphQL.",
+        "Java.",
+        "Rails."
+      ]
     };
   }
 };
