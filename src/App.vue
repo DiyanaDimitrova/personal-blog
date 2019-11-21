@@ -1,20 +1,23 @@
 <template>
-  <div id="app">
+  <!-- <div id="app"> -->
+    <v-app-bar>
     <div id="nav">
-      <!-- <v-toolbar color="black">
-        <v-toolbar-title class="title">DIYANA</v-toolbar-title>
+      <v-toolbar color="black">
+        <v-app-bar-nav-icon class="hidden-md-and-up"></v-app-bar-nav-icon>
+        <v-toolbar-title class="title-name">DIYANA</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-toolbar-items class="hidden-xs-only navigation">
+        <v-toolbar-items class="hidden-xs-only hidden-sm-only navigation">
           <router-link to="/">HOME</router-link>
           <router-link to="/about">ABOUT МE</router-link>
           <router-link to="/skills">SKILLS</router-link>
           <router-link to="/projects">PROJECTS</router-link>
           <router-link to="/certificates">CERTIFICATES</router-link>
         </v-toolbar-items>
-      </v-toolbar> -->
+      </v-toolbar>
     </div>
     <router-view />
-  </div>
+    </v-app-bar>
+  <!-- </div> -->
 </template>
 <style lang="scss">
 body {
@@ -33,7 +36,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     color: #fff;
-    padding: 20px 30px 0 30px;
+    padding: 18px 30px 0 30px;
     text-decoration: none;
     text-align: right;
     &.router-link-exact-active {
@@ -41,8 +44,7 @@ body {
     }
   }
 }
-.title {
+.title-name {
   color: #00ff00;
-  font-weight: bold;
 }
 </style>
